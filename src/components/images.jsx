@@ -54,7 +54,7 @@ class Images extends React.Component
     {
         return(
             <div>
-                <h2>Images</h2>
+                <h2>Image List</h2>
                 Image tagged : {this.props.tags}<br/>
                 {this.getImagesWithTags()}
             </div>
